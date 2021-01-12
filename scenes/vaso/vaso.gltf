@@ -1,0 +1,338 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 18831,
+            "max": [
+                -2396.813232421875,
+                12700.9990234375,
+                4226.35498046875
+            ],
+            "min": [
+                -4529.45556640625,
+                10568.357421875,
+                1920.62548828125
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 18831,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 18831,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 110592,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 225972,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 225972,
+            "byteOffset": 225972,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150648,
+            "byteOffset": 451944,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 442368,
+            "byteOffset": 602592
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1044960,
+            "uri": "VASO GLTF resources/VASO GLTF.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 61419.04296875,
+                "znear": 9732.865234375
+            },
+            "type": "perspective"
+        },
+        {
+            "name": "Prospettica",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911120076384465,
+                "zfar": 27519.400390625,
+                "znear": 0.0010000000474974513
+            },
+            "type": "perspective"
+        },
+        {
+            "name": "Superiore",
+            "orthographic": {
+                "xmag": 179.99899291992188,
+                "ymag": 179.99899291992188,
+                "zfar": 612.6199340820312,
+                "znear": 0.0010000000474974513
+            },
+            "type": "orthographic"
+        },
+        {
+            "name": "Frontale",
+            "orthographic": {
+                "xmag": 170,
+                "ymag": 170,
+                "zfar": 46053.7734375,
+                "znear": 2193.435546875
+            },
+            "type": "orthographic"
+        },
+        {
+            "name": "Destra",
+            "orthographic": {
+                "xmag": 179.99899291992188,
+                "ymag": 179.99899291992188,
+                "zfar": 23152.71875,
+                "znear": 0.0010000000474974513
+            },
+            "type": "orthographic"
+        }
+    ],
+    "images": [
+        {
+            "uri": "VASO GLTF resources/021 (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Livello 01-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.8220855879520421,
+                -1.6009439640640721e-07,
+                0.5693639127048993,
+                0,
+                0.3645873527499822,
+                0.7680904601401791,
+                -0.526415318200391,
+                0,
+                -0.4373229146003723,
+                0.6403413414955139,
+                0.6314361691474915,
+                0,
+                -21195.775390625,
+                24553.984375,
+                13073.2548828125,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "camera": 1,
+            "matrix": [
+                0.9851114903494969,
+                6.140880173949315e-07,
+                -0.17191669954069577,
+                0,
+                -0.1313100649533009,
+                0.6454550574771407,
+                -0.7524263655794435,
+                0,
+                0.11096404112731063,
+                0.7637982513575052,
+                0.6358452742608957,
+                0,
+                650.135986328125,
+                2839.2899381539464,
+                2242.4100398775563,
+                1
+            ],
+            "name": "Prospettica"
+        },
+        {
+            "camera": 2,
+            "matrix": [
+                1.0000000000000002,
+                0,
+                0,
+                0,
+                0,
+                4.500004647834553e-08,
+                -0.9999999999999993,
+                0,
+                0,
+                0.9999999999999991,
+                4.500004647834552e-08,
+                0,
+                250.88800048828125,
+                612.6179787469389,
+                49.11312571236881,
+                1
+            ],
+            "name": "Superiore"
+        },
+        {
+            "camera": 3,
+            "matrix": [
+                1.0000000000000002,
+                0,
+                0,
+                0,
+                0,
+                0.9999999999999993,
+                4.500004647834553e-08,
+                0,
+                0,
+                -4.500004647834552e-08,
+                0.9999999999999991,
+                0,
+                -1251.8800048828125,
+                4941.089281559932,
+                12493.099831724257,
+                1
+            ],
+            "name": "Frontale"
+        },
+        {
+            "camera": 4,
+            "matrix": [
+                0,
+                4.500004647834552e-08,
+                -0.9999999999999991,
+                0,
+                0,
+                0.9999999999999991,
+                4.500004647834552e-08,
+                0,
+                1,
+                0,
+                0,
+                0,
+                502.2049865722656,
+                236.21801358487238,
+                -250.34499059088176,
+                1
+            ],
+            "name": "Destra"
+        },
+        {
+            "mesh": 0,
+            "name": "Livello 01"
+        },
+        {
+            "children": [
+                5
+            ],
+            "name": "Livello 01"
+        },
+        {
+            "children": [
+                6
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                4.5000046478345506e-08,
+                -0.9999999999999989,
+                0,
+                0,
+                0.9999999999999989,
+                4.5000046478345506e-08,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "prova wireframe"
+        },
+        {
+            "children": [
+                7
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                8
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ]
+}
+ 
